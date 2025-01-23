@@ -14,7 +14,9 @@ The primary objective of this project was to identify the optimal design configu
 
 - **Factorial Design and Response Surface Methodology (RSM)**:  
   - Screening experiment using a 2k factorial design to identify the factors significantly influencing browsing duration.
+
     <img width="611" alt="Screenshot 2025-01-23 at 2 29 26 PM" src="https://github.com/user-attachments/assets/802dcb21-2f55-4880-8f0f-8fa0db54130e" />
+    
   - Additional 3x3 factorial design to find the most efficient Match Score and Preview Length combination to minimize browsing time.  
   - Response Surface Methodology: The model employs Taylor’s Theorem to form a secondary model, considering the main effects, interaction effects, and quadratic effects of the two factors to approximate the minimum browsing time.
     <img width="629" alt="Screenshot 2025-01-23 at 2 30 05 PM" src="https://github.com/user-attachments/assets/59099d5f-54a6-4b90-9c56-3bf8ee358c35" />
