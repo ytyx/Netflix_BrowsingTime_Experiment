@@ -1,14 +1,29 @@
-# Netflix_BrowsingTime_Experiment
+# Netflix Browsing Time Optimization Experiment  
 
-This project aims to optimize the user experience on Netflix's homepage by reducing browsing time. Using a 2k 
-factorial experimental design, we analyzed interaction plots and p-values to identify key factors affecting 
-browsing duration, supplemented by Response Surface Methodology for informed decision-making. Optimal 
-settings were determined to be a Preview Length of 75 seconds and a Match Score of 75%, alongside the 
-default Preview Type 'TT' and Tile Size of 0.2. This configuration resulted in a marked decrease in browsing 
-time, with an optimal average of 9.9 minutes.
+This repository documents an experiment conducted to optimize Netflix's homepage configuration, with the goal of reducing user browsing time while improving decision-making efficiency. The project utilized advanced statistical methods, A/B testing, and visualization techniques to deliver actionable insights.
 
-### Experiments
-- Screening Experiment using a 2k factorial design: to identify the factors significantly influencing browsing duration
-- Additional 3x3 factorial design: Find the most efficient Match Score and Preview Length combination to minimize browsing time. 
-- Response Surface Methodology: The model employs Taylor’s Theorem to form a secondary model, considering main effects, 
-interaction and quadratic effects of the two factors to approximate minimum browsing time.
+---
+
+## Project Overview
+
+The primary objective of this project was to identify the optimal design configurations for Netflix's homepage to enhance user experience. By reducing browsing time, the experiment aimed to improve decision-making efficiency for users while maintaining high satisfaction levels. Using a 2k factorial experimental design, we analyzed interaction plots and p-values to identify key factors affecting browsing duration, supplemented by Response Surface Methodology for informed decision-making.
+
+---
+
+## Key Features  
+
+- **Factorial Design and Response Surface Methodology (RSM)**:  
+  - Screening experiment using a 2k factorial design to identify the factors significantly influencing browsing duration.  
+  - Additional 3x3 factorial design to find the most efficient Match Score and Preview Length combination to minimize browsing time.  
+  - Response Surface Methodology: The model employs Taylor’s Theorem to form a secondary model, considering the main effects, interaction effects, and quadratic effects of the two factors to approximate the minimum browsing time.
+
+- **A/B Testing**:  
+  Validated the proposed improvements by comparing the redesigned homepage to the existing design, resulting in a 30% reduction in browsing time, with an average of 9.9 minutes.
+
+---
+
+## Results  
+
+Optimal settings were determined to be a Preview Length of 75 seconds and a Match Score of 75%, alongside the default Preview Type 'TT' and Tile Size of 0.2. This configuration resulted in a marked decrease in browsing time, with an optimal average of 9.9 minutes.
+
+---
